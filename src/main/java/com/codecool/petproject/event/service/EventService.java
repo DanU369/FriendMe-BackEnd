@@ -28,7 +28,7 @@ public void addEvent (Event event){
 }
 
     public List<Event> getAllEvents() {
-        return (List<Event>) eventRepository.findAll();
+        return eventRepository.findAll();
     }
 
 

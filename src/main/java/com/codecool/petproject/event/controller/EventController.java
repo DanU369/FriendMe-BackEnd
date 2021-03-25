@@ -27,6 +27,7 @@ private EventService eventService;
 
     @GetMapping()
     public List<Event> getEvents(){
+        System.out.println("AICIIIII" + eventService.getAllEvents());
 return eventService.getAllEvents();
     }
 }
